@@ -1,0 +1,50 @@
+/* Global */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.container {
+    max-width: 30%;
+    margin: 10px auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+.title {
+margin-top: 50px;
+}
+
+.title h1 {
+font-weight: 800;
+}
+
+.title h2 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.text {
+    column-count: 1;
+    text-align: left;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.text p {
+    padding: 5px;
+}
+
+.source {
+    margin-bottom: 50px;
+}
+
+.source span {
+    font-style: italic;
+}
