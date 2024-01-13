@@ -1,1 +1,10 @@
+# Dzieki!, uzylam tej komendy na swoim katalogu i dzieki temu znalazlam ze mam tam bledy :) , ale,tak mozna by bylo zapisac zmiany w pliku zanim sie mu zrobi commit i push :)
+
+
+dodanie zależności html-validate
+
 npm install --save-dev html-validate
+
+skanowanie wszystkich plików html w lokalnym folderze:
+
+npm exec html-validate *.html
